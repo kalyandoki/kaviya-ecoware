@@ -97,7 +97,7 @@ const Header = () => {
             <img
               src={kavLogo}
               alt="Kaviya Ecoware Logo"
-              className="pl-4 h-10 md:h-14"
+              className="md:pl-4 h-10 md:h-14"
             />
           </a>
 
@@ -129,7 +129,7 @@ const Header = () => {
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
             <svg
-              className="w-6 h-6"
+              className="w-9 h-9"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
