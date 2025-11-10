@@ -295,8 +295,7 @@ const Hero = () => {
                 className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 xl:w-[28rem] xl:h-[28rem] rounded-3xl overflow-hidden shadow-2xl transform transition-transform duration-700 hover:scale-105 relative"
                 style={{
                   boxShadow: "0 25px 50px -12px rgba(81, 116, 61, 0.25)",
-                  background:
-                    "linear-gradient(135deg, #ffffff 0%, rgba(81, 116, 61, 0.08) 100%)",
+                  background: "#51743D",
                 }}
               >
                 {/* Decorative pattern overlay */}
@@ -372,7 +371,7 @@ const Hero = () => {
 
               {/* Floating product highlight 1 */}
               <div
-                className="absolute -bottom-6 -left-6 w-40 h-40 md:w-56 md:h-56 rounded-3xl overflow-hidden shadow-xl transform transition-transform duration-700 hover:scale-105 border-4 border-white backdrop-blur-sm bg-white"
+                className="absolute -bottom-6 -left-6 w-40 h-40 md:w-56 md:h-56 rounded-3xl overflow-hidden shadow-xl transform transition-transform duration-700 hover:scale-105 backdrop-blur-sm bg-[#51743D]"
                 style={{
                   boxShadow:
                     "0 20px 25px -5px rgba(81, 116, 61, 0.1), 0 10px 10px -5px rgba(81, 116, 61, 0.04)",
@@ -391,7 +390,7 @@ const Hero = () => {
 
               {/* Floating product highlight 2 */}
               <div
-                className="absolute -top-6 -right-6 w-32 h-32 md:w-48 md:h-48 rounded-3xl overflow-hidden shadow-xl transform transition-transform duration-700 hover:scale-105 border-4 border-white backdrop-blur-sm bg-white"
+                className="absolute -top-6 -right-6 w-32 h-32 md:w-48 md:h-48 rounded-3xl overflow-hidden shadow-xl transform transition-transform duration-700 hover:scale-105 backdrop-blur-sm bg-[#51743D]"
                 style={{
                   boxShadow:
                     "0 20px 25px -5px rgba(81, 116, 61, 0.1), 0 10px 10px -5px rgba(81, 116, 61, 0.04)",
